@@ -11,8 +11,7 @@ import lombok.experimental.Accessors;
  * Class : cn.gsq.n9e.core.AbstractMetricsGroup
  *
  * @author : gsq
- * @date : 2024-08-12 10:41
- * @note : It's not technology, it's art !
+ * @since : 2024-08-12 10:41
  **/
 @Getter
 @Setter

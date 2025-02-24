@@ -20,33 +20,19 @@ import java.util.Set;
  * Class : cn.gsq.n9e.config.N9eAlarmAutoConfigure
  *
  * @author : gsq
- * @date : 2024-08-13 16:47
- * @note : It's not technology, it's art !
+ * @since  : 2024-08-13 16:47
  **/
 @Configuration
 @EnableConfigurationProperties(N9eAlarmProperties.class)
 public class N9eAlarmAutoConfigure {
 
-    /**
-     * @Description : 使用者API入口实例
-     * @Return : cn.gsq.n9e.N9eAlarmManager
-     * @Author : gsq
-     * @Date : 2024/8/13 17:08
-     * @Note : An art cell !
-     **/
+   //使用者API入口实例
     @Bean(name = "n9eAlarmManager")
     public N9eAlarmManager getN9eAlarmManager() {
         return new N9eAlarmManagerImpl();
     }
 
-    /**
-     * @Description : 加载默认分组和指标
-     * @param cn.gsq.n9e.N9eAlarmManager manager : 告警管理器
-     * @Return : cn.hutool.core.lang.Pair<java.lang.String,java.lang.String>
-     * @Author : gsq
-     * @Date : 2024/8/13 17:36
-     * @Note : An art cell !
-     **/
+    //加载默认分组和指标
     @Bean(name = "n9eAlarmEnvLoad")
     public Pair<String, String> load(N9eAlarmManager manager){
         // 主机

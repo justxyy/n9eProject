@@ -10,8 +10,8 @@ import lombok.experimental.Accessors;
  * Class : cn.gsq.n9e.core.pojo.Metric
  *
  * @author : gsq
- * @date : 2024-08-12 15:42
- * @note : It's not technology, it's art !
+ * @since : 2024-08-12 15:42
+
  **/
 @Setter
 @Getter

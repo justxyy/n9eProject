@@ -11,8 +11,7 @@ import java.util.Set;
  * Class : cn.gsq.n9e.core.AbstractMetrics
  *
  * @author : gsq
- * @date : 2024-08-12 10:54
- * @note : It's not technology, it's art !
+ * @since : 2024-08-12 10:54
  **/
 @Getter
 public class Metric {

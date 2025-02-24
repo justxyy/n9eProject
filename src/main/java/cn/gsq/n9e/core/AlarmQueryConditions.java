@@ -8,8 +8,8 @@ import lombok.Setter;
  * Class : cn.gsq.n9e.core.AlarmQueryConditions
  *
  * @author : gsq
- * @date : 2024-08-14 17:15
- * @note : It's not technology, it's art !
+ * @since : 2024-08-14 17:15
+
  **/
 @Getter
 @Setter

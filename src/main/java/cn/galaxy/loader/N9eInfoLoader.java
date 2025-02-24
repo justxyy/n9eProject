@@ -10,17 +10,13 @@ import java.util.List;
  * Class : cn.galaxy.loader.N9eInfoLoader
  *
  * @author : xyy
- * @date : 2024-08-23 11:09
- * @note : It's not technology, it's art !
+ * @since  : 2024-08-23 11:09
  **/
 public class N9eInfoLoader extends AbstractInformationLoader {
     /**
-     * @Description : agent进程不启动
-     * @Param : []
-     * @Return : boolean
-     * @Author : gsq
-     * @Date : 15:21
-     * @note : An art cell !
+     *agent进程不启动
+     * @author : gsq
+     * @since  : 15:21
      **/
     @Override
     public boolean isEnable() {

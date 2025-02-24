@@ -10,8 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * Class : cn.gsq.n9e.config.N9eAlarmProperties
  *
  * @author : gsq
- * @date : 2024-08-13 16:54
- * @note : It's not technology, it's art !
+ * @since : 2024-08-13 16:54
  **/
 @Getter
 @Setter

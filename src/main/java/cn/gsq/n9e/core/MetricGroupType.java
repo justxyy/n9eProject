@@ -12,8 +12,7 @@ import java.util.Map;
  * Class : cn.gsq.n9e.pojo.AlarmGroupType
  *
  * @author : gsq
- * @date : 2024-08-12 10:36
- * @note : It's not technology, it's art !
+ * @since : 2024-08-12 10:36
  **/
 @Slf4j
 @Getter
@@ -36,14 +35,8 @@ public enum MetricGroupType {
         }
     }
 
-    /**
-     * @Description : 枚举对象
-     * @param java.lang.String name : 对象名称
-     * @Return : cn.gsq.n9e.core.MetricGroupType
-     * @Author : gsq
-     * @Date : 2024/8/12 15:59
-     * @Note : An art cell !
-     **/
+   // 枚举对象
+
     public static MetricGroupType parse(String name) {
         if(map.containsKey(name)) {
             return map.get(name);

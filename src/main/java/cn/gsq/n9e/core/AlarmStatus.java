@@ -12,8 +12,7 @@ import java.util.Map;
  * Class : cn.gsq.n9e.core.AlarmStatus
  *
  * @author : gsq
- * @date : 2024-08-12 17:15
- * @note : It's not technology, it's art !
+ * @since : 2024-08-12 17:15
  **/
 @Slf4j
 @Getter

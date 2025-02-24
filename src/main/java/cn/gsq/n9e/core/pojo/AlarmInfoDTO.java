@@ -11,8 +11,7 @@ import lombok.experimental.Accessors;
  * Class : cn.gsq.n9e.core.pojo.AlarmInfoDTO
  *
  * @author : gsq
- * @date : 2024-08-14 16:38
- * @note : It's not technology, it's art !
+ * @since : 2024-08-14 16:38
  **/
 @Setter
 @Getter

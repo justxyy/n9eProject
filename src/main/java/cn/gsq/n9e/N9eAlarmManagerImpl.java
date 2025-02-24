@@ -22,8 +22,7 @@ import java.util.stream.Collectors;
  * Class : cn.gsq.n9e.N9eAlarmManagerImpl
  *
  * @author : xyy
- * @date : 2024-08-19 09:08
- * @note : It's not technology, it's art !
+ * @since : 2024-08-19 09:08
  **/
 public class N9eAlarmManagerImpl implements N9eAlarmManager{
 

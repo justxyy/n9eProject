@@ -14,21 +14,14 @@ import java.util.List;
  * Class : cn.gsq.n9e.utils.HttpUtil
  *
  * @author : xyy
- * @date : 2024-08-19 13:19
- * @note : It's not technology, it's art !
+ * @since : 2024-08-19 13:19
  **/
 public class HttpUtil {
     private static String AUTHORIZATION="Basic dXNlcjAwMTpjY2MyNmRhN2I5YWJhNTMzY2JiMjYzYTM2YzA3ZGNjNQ==";//配置文件配的user001:ccc26da7b9aba533cbb263a36c07dcc5的base64加密
     private static OkHttpClient client = new OkHttpClient();
 
-    /**
-     * @Description : get请求
-     * @Param :
-     * @Return :
-     * @Author : xyy
-     * @Date : 2024/8/19
-     * @note : An art cell !
-     **/
+    //@Description : get请求
+
     public static String doGet(String url) {
         Response response = null;
         try {
@@ -54,14 +47,8 @@ public class HttpUtil {
     }
 
 
-    /**
-     * @Description : post请求
-     * @Param :
-     * @Return :
-     * @Author : xyy
-     * @Date : 2024/8/19
-     * @note : An art cell !
-     **/
+    //post请求
+
     public static void doPost(String url,String json) {
         Response response = null;
         try {
@@ -88,14 +75,8 @@ public class HttpUtil {
         }
     }
 
-    /**
-     * @Description : put请求
-     * @Param :
-     * @Return :
-     * @Author : xyy
-     * @Date : 2024/8/19
-     * @note : An art cell !
-     **/
+    //put请求
+
     public static void doPut(String url,String json) {
         Response response = null;
         try {
@@ -122,14 +103,8 @@ public class HttpUtil {
         }
     }
 
-    /**
-     * @Description : delete请求
-     * @Param :
-     * @Return :
-     * @Author : xyy
-     * @Date : 2024/8/19
-     * @note : An art cell !
-     **/
+    //delete请求
+
     public static void doDelete(String url,String json) {
         Response response = null;
         try {
