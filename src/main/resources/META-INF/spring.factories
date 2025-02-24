@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.gsq.n9e.config.N9eAlarmAutoConfigure
